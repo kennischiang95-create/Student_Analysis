@@ -1,0 +1,18 @@
+GitHub Pages 上傳方式
+
+1. 解壓縮 student_data_github_ready.zip。
+2. 打開解壓縮後的資料夾。
+3. 確認第一層直接看到：
+   - index.html
+   - css/
+   - js/
+   - README.md
+   - REGION_AUDIT.md
+   - .nojekyll
+4. 在 GitHub Repository 選擇 Add file → Upload files。
+5. 將上述所有檔案與資料夾全選後拖入，不要再包進另一層資料夾。
+6. 到 Settings → Pages：
+   - Source：Deploy from a branch
+   - Branch：main
+   - Folder：/(root)
+7. 儲存並等待部署完成。
